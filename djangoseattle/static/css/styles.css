@@ -1,0 +1,101 @@
+header,
+section,
+.post_list {
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a:link {
+    color: #614709;
+    color: #7A5C12;
+}
+
+header {
+    overflow: hidden;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #041710;
+    background-color: #7A5C12;
+    background-color: #c08c0b;
+    background-color: #27C78E;
+    border: none;
+    color: #fff;
+}
+
+header,
+.mailing_list {
+    background-color: #092E20;
+}
+
+.mailing_list form {
+    margin-bottom: 0;
+}
+
+.mailing_list fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+.mailing_list label { display: none; }
+
+input,
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input {
+    background-color: #ced5d2;
+}
+
+.logo, .notice {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    font-family: "Ubuntu Mono";
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 2px 2px 0 #000;
+    text-rendering: optimizeLegibility;
+}
+
+.notice strong {
+    font-size: 11px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.next_meeting {
+    background: #ced5d2;
+}

@@ -1,0 +1,81 @@
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Django Seattle User Group</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/normalize.css">
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/styles.css">
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/pygment_trac.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="page">
+
+    <header>
+      <h1 class="logo">{&#37; django_seattle &#37;}</h1>
+      <p class="notice"><strong>Next meeting:</strong> <time>March 26 @ 6:00 PM</time></p>
+    </header>
+
+    <div class="mailing_list">
+      <section>
+      <form>
+        <fieldset>
+          <legend>Get involved</legend>
+          <label for="email">Your email</label>
+          <input id="email" type="text" placeholder="Your email">
+          <button type="submit">Join mailing list</button>
+        </fieldset>
+      </form>
+      </section>
+    </div><!-- .mailing_list -->
+
+    <div class="next_meeting">
+      <section>
+      <h2>Next up</h2>
+      <p>Our next meeting is happening:</p>
+      <h3><time>March 26, 2013<br />6:00 PM</time></h3>
+      <h3 class="location"><a href="#">Energy savvy</a></h3>
+      </section>
+    </div><!-- .next_meeting -->
+
+    <div class="post_list">
+      <h1>Latest news</h1>
+      <div class="post">
+        <h3>Help Make Django Seattle Better Tues 3/26 at EnergySavvy</h3>
+        <p class="byline">Posted by Alec</p>
+        <p>Hey folks,</p>
+        <p>I think we have a real opportunity to make the Django Seattle user group something special. I'd like to reserve the next meeting to regroup and have a small planning session. Here's the agenda I'm thinking:</p>
+        <ol>
+          <li>Reselecting date / time</li>
+          <li>Getting the new site up</li>
+          <li>Presence on social media / tech calendars</li>
+          <li>Scheduling venues for the next 6+ months</li>
+          <li>Meeting format (speakers, lightning talks, topics, etc.)</li>
+          <li>Separate events for Outreach (beginners / diversity outreach)</li>
+          <li>[Your Agenda Item Here]</li>
+        </ol>
+        <p>Once again EnergySavvy will be hosting:</p>
+        <address>
+          159 S Jackson St., Suite 420<br />
+          Time: 6-8pm<br />
+        </address>
+        <p>Hope to see you there!</p>
+        <p>- Alec</p>
+      </div><!-- .post -->
+    </div><!-- .post_list -->
+
+    <footer>
+      <small>Copyright &copy; 2013 Django Seattle</small>
+    </footer>
+  </div><!-- .page -->
+  <script src="{{ STATIC_URL }}js/scale.fix.js"></script>
+</body>
+</html>
