@@ -7,6 +7,6 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$', TemplateView.as_view(template_name='djangoseattle/index.html')),
-    url(r'^events/', TemplateView.as_view(template_name='djangoseattle/events.html')),
+    url(r'^discussion/', TemplateView.as_view(template_name='djangoseattle/discussion.html')),
     url(r'^admin/', include(admin.site.urls)),
 )
